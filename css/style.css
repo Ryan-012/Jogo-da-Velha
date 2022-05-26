@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Minha';
+}
+@font-face {
+    font-family: 'Minha';
+    src: url('../Insanibc.ttf') format('truetype');
+}
+body{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: #00aeff; 
+}
+
+#titulo{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    font-size: 50px;   
+}
+.container{
+    height: 100%;
+    width: 100%;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 7px 10px 0px;
+    transition-property: border;  
+}
+.quadrado:hover{
+    background-color: #00e1ff;
+    color: rgb(0, 225, 255);
+}
+.quadrado{
+   
+    width: 70px;
+    height: 70px;
+    color: white;
+    display: inline-block;
+    margin: 1px;
+    background-color: white;
+    font-size: 26px;
+    font-family: 'Minha';
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#final{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    transform: translateX(30%);
+}
